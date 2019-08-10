@@ -13,6 +13,10 @@
         position: center;
     }
     
+    html {
+        margin-left: 200px;
+    }
+    
     header,
     nav,
     section,
@@ -20,33 +24,52 @@
     footer {
         background-color: #ebebeb;
         border: 10px solid #777777;
-        width: 100%;
-        text-align: center;
+    }
+    
+    header,
+    nav,
+    footer {
+        padding: 11px;
     }
     
     article {
         color: #ebebeb;
         background: #777;
-        width: 95%;
-        position: center;
+        align-content: center;
+        border-radius: square, 20px;
+        float: center;
+        border-color: #777;
+        margin-right: 0px;
+        height: 100px;
+        margin-left: 20px;
+        width: 475px;
     }
     
     h1,
     p {
         color: #777;
         background: #ebebeb;
-        width: 85%;
-        position: center;
+        border-radius: square, 20px;
+        border: 20px;
+        border-color: solid, #777;
+        float: center;
+        width: 425px;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     section {
-        float: left;
         width: 65%;
+        height: 50%;
+        padding: 8px;
     }
     
     aside {
         float: right;
-        width: 35%;
+        width: 30%;
+        height: 50%;
+        padding: 58.24px;
     }
     
     div {
@@ -61,31 +84,27 @@
 <nav>
     nav
 </nav>
-<br>
 
 <body>
-
-    <div>
+    <aside>
+        aside
+    </aside>
+    <section>
+        section
         <br>
-        <section>
-            section
-            <br>
-            <article>
-                article
-                <br>
-                <h1>h1,h2,h3</h1>
-                <p>p</p>
-            </article>
-        </section>
-        <aside>
-            aside
-        </aside>
-    </div>
 
-    <br>
-    <footer>
-        footer
-    </footer>
+        <article>
+            article
+            <h1>h1,h2,h3</h1>
+            <p>p</p>
+        </article>
+    </section>
+
 </body>
+<footer>
+    footer
+</footer>
+<br>
+
 
 </html>
